@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Typing Test 81',
+      title: '',
       theme: ThemeData(primarySwatch: Colors.blueGrey),
       home: const TypingTestPage(),
     );
@@ -27,7 +27,7 @@ class TypingTestPage extends StatelessWidget {
       // Bagian paling atas halaman
       appBar: AppBar(
         title: const Text(
-          'Article Timmy',
+          'Article Abuzar',
           style: TextStyle(fontWeight: FontWeight.bold),
         ),
 
@@ -36,7 +36,7 @@ class TypingTestPage extends StatelessWidget {
           backgroundColor: Colors.blue,
           child: CircleAvatar(
             radius: 29,
-            backgroundImage: AssetImage('assets/images/timi.png'),
+            backgroundImage: AssetImage('assets/images/abuzar.jpg'),
           ),
         ),
 
@@ -61,7 +61,7 @@ class TypingTestPage extends StatelessWidget {
                   Icon(Icons.circle, size: 10, color: Colors.green),
                   SizedBox(width: 8),
                   Text(
-                    'TECHNOLOGY',
+                    'TEKNOLOGI',
                     style: TextStyle(
                       color: Colors.green,
                       fontWeight: FontWeight.bold,
@@ -75,7 +75,7 @@ class TypingTestPage extends StatelessWidget {
 
               // Judul artikel
               const Text(
-                'Typing Test 81: Seberapa Cepat Kamu Mengetik?',
+                '',
                 style: TextStyle(
                   fontSize: 28,
                   fontWeight: FontWeight.bold,
@@ -91,11 +91,11 @@ class TypingTestPage extends StatelessWidget {
                   Icon(Icons.calendar_today, size: 16, color: Colors.grey),
                   SizedBox(width: 6),
                   Text(
-                    '2 September 2026',
+                    '3 September 2026',
                     style: TextStyle(color: Colors.grey),
                   ),
                   SizedBox(width: 10),
-                  Text('• Oleh: Timi', style: TextStyle(color: Colors.grey)),
+                  Text('• Oleh: Abuzar', style: TextStyle(color: Colors.grey)),
                 ],
               ),
 
@@ -105,7 +105,7 @@ class TypingTestPage extends StatelessWidget {
               ClipRRect(
                 borderRadius: BorderRadius.circular(15),
                 child: Image.asset(
-                  'assets/images/hallo.png',
+                  'assets/images/tugas.jpeg',
                   width: double.infinity,
                   height: 220,
                   fit: BoxFit.cover,
@@ -116,19 +116,18 @@ class TypingTestPage extends StatelessWidget {
 
               // Isi artikel
               const Text(
-                'Typing Test 81 merupakan sebuah tes untuk mengukur '
-                'seberapa cepat dan akurat seseorang dalam mengetik. '
-                'Kecepatan mengetik biasanya dihitung menggunakan '
-                'satuan Words Per Minute atau WPM.',
+                'Kendaraan listrik di Indonesia terus berkembang dengan dukungan pemerintah dan industri otomotif.'
+                'Penggunaan kendaraan ramah lingkungan diharapkan dapat mengurangi emisi karbon serta menciptakan '
+                'transportasi yang lebih hemat energi dan berkelanjutan.',
                 style: TextStyle(fontSize: 16, height: 1.6),
               ),
 
               const SizedBox(height: 15),
 
               const Text(
-                'Dengan melakukan typing test, kita dapat mengetahui '
-                'kemampuan mengetik sekaligus melatih kecepatan dan '
-                'ketepatan dalam menggunakan keyboard.',
+                'Selain mengurangi emisi karbon, kendaraan listrik juga dinilai lebih hemat dalam biaya operasional.'
+                'Dengan semakin banyaknya produsen yang memasarkan mobil dan motor listrik, masyarakat memiliki lebih banyak '
+                'pilihan untuk beralih ke transportasi yang lebih bersih dan efisien.',
                 style: TextStyle(fontSize: 16, height: 1.6),
               ),
 
@@ -145,7 +144,7 @@ class TypingTestPage extends StatelessWidget {
                 child: Column(
                   children: const [
                     Text(
-                      'HASIL TYPING TEST',
+                      'EVISIENSI ENERGI',
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 14,
@@ -155,7 +154,7 @@ class TypingTestPage extends StatelessWidget {
                     SizedBox(height: 10),
 
                     Text(
-                      '81 WPM',
+                      'Lebih hemat dibanding bensin',
                       style: TextStyle(
                         fontSize: 32,
                         fontWeight: FontWeight.bold,
@@ -166,7 +165,7 @@ class TypingTestPage extends StatelessWidget {
                     SizedBox(height: 5),
 
                     Text(
-                      'Kecepatan mengetik',
+                      'Inovasi Kendaraan Listrik di Indonesia',
                       style: TextStyle(color: Colors.grey),
                     ),
                   ],
