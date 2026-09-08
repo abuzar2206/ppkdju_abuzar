@@ -82,16 +82,10 @@ class Flutter extends StatelessWidget {
           ),
 
           const SizedBox(height: 12),
-          // Memberikan jarak 12 pixel setelah judul.
-
-          // ======================================================
-          // TEXTFIELD 1 - LOKASI
-          // ======================================================
+          
           TextField(
-            // Membuat input untuk memasukkan lokasi.
-
-            controller: _lokasiController,
-            // Menghubungkan TextField dengan controller lokasi.
+            
+            controller: _lokasiController,// Menghubungkan TextField dengan controller lokasi.
 
             decoration: const InputDecoration(
               // InputDecoration digunakan untuk mengatur tampilan TextField.

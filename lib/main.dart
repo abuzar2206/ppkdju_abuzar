@@ -1,6 +1,4 @@
-import 'package:abuzar_ppkd_app_devt/ngetes/ngetes.dart';
-import 'package:abuzar_ppkd_app_devt/tugasS_flutter/App.dart';
-import 'package:abuzar_ppkd_app_devt/tugas_flutter/Tugas4_Flutter.dart';
+import 'package:abuzar_ppkd_app_devt/flutter/flutter5.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -20,7 +18,7 @@ class MyApp extends StatelessWidget {
           seedColor: Colors.white,
         ),
       ),
-      home: Tugas(),
+      home: const Aboy (),
     );
   }
 }
