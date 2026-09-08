@@ -1,4 +1,6 @@
-import 'package:abuzar_ppkd_app_devt/tugas_flutter/undangan.dart';
+import 'package:abuzar_ppkd_app_devt/ngetes/ngetes.dart';
+import 'package:abuzar_ppkd_app_devt/tugasS_flutter/App.dart';
+import 'package:abuzar_ppkd_app_devt/tugas_flutter/Tugas4_Flutter.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -18,7 +20,7 @@ class MyApp extends StatelessWidget {
           seedColor: Colors.white,
         ),
       ),
-      home: const Store(),
+      home: Tugas(),
     );
   }
 }
