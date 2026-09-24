@@ -1,4 +1,4 @@
-import 'package:abuzar_ppkd_app_devt/latihan_widget/latihan_scafold.dart';
+import 'package:abuzar_android/latihan_widget/latihan_scafold.dart';
 import 'package:flutter/material.dart';
 
 void main() {

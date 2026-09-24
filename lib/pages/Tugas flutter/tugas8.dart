@@ -149,7 +149,7 @@ class _Tugas8State extends State<Tugas8> {
         items: const [
           BottomNavigationBarItem(
             icon: Icon(Icons.assignment),
-            label: 'Tugas 7',
+            label: 'Home',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.info),
