@@ -8,24 +8,40 @@ environment:
   sdk: ^3.13.1
 
 dependencies:
-  cupertino_icons: ^1.0.8
   flutter:
     sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # REST API
   dio: ^5.11.1
   retrofit: ^4.10.0
+
+  # Login & session
   shared_preferences: ^2.5.5
+
+  # Location & Maps
+  google_maps_flutter: ^2.18.1
+  geolocator: ^14.0.3
+  geocoding: ^5.0.0
+
+  # Date & time
+  intl: ^0.20.2
+
+  # Database lama
   sqflite: ^2.4.4
   path: ^1.9.0
-  sqlite_viewer:
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
   flutter_lints: ^6.0.0
-  build_runner: ^2.4.14
+
+  # Retrofit generator
+  build_runner: ^2.4.14 
   json_serializable: ^6.14.1
   retrofit_generator: ^10.2.9
-  
 
 flutter:
   uses-material-design: true

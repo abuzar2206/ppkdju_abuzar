@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
-class Tugas7 extends StatefulWidget {
+ class Tugas7 extends StatefulWidget {
   const Tugas7({super.key});
 
   @override
